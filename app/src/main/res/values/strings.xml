@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Fahrenheit Converter</string>
     <string name="description">Enter temperature to convert</string>
+    <string name="convert_to_celsius_button">Celsius</string>
 </resources>

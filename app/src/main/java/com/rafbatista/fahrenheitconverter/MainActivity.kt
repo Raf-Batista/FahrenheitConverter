@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
     }
 
-    fun handleClick(view: View) {
+    fun convertToCelsius(view: View) {
         val userInput = binding.editTextFahrenheitInput.text
         val fahrenheitTemp =  userInput.toString().toFloat()
         val celsiusTemp = ( (fahrenheitTemp  -  32.0  ) *  5.0) / 9.0

@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editTextFahrenheitInput"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -23,7 +23,7 @@
         tools:layout_editor_absoluteY="132dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/convertButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -35,10 +35,10 @@
         app:backgroundTint="@color/teal_700"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextFahrenheitInput" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textInstructions"
         android:layout_width="405dp"
         android:layout_height="35dp"
         android:layout_marginStart="8dp"

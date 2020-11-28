@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Fahrenheit Converter</string>
+    <string name="description">Enter temperature to convert</string>
 </resources>
